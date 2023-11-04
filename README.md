@@ -16,9 +16,52 @@ npm init @eslint/config
 follow directions and answer questions
 style guide airbnb 
 
+
+### Prettier
+
+fallow instructions from website [prettier.io](https://prettier.io/docs/en/install)
+
+install
+
+```
+npm install --save-dev --save-exact prettier
+```
+
+install plugins
+
+```
+eslint-config-prettier
+eslint-plugin-prettier
+```
+
+[https://github.com/prettier/eslint-config-prettier](https://github.com/prettier/eslint-config-prettier)
+[https://github.com/prettier/eslint-plugin-prettier](https://github.com/prettier/eslint-plugin-prettier)
+
+Then, in your .eslintrc.json
+
+```
+{
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error"
+  }
+}
+```
+
+```
+{
+  "extends": [
+    "some-other-config-you-use",
+    "prettier" // it should be in the end of all extends
+  ]
+}
+
+```
+
 ### Extensions 
 
 ESLint
+Prettier
 
 ## Available Scripts
 
@@ -86,3 +129,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
