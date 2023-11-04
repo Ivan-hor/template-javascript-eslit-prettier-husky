@@ -1,6 +1,24 @@
-# Getting Started with Create React App
+# template-javascript-eslint-prettier-husky
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Eslint 
+
+
+[eslint.org](https://eslint.org/)
+
+install and configure ESLint using this command
+
+
+```
+npm init @eslint/config
+```
+
+follow directions and answer questions
+style guide airbnb 
+
+### Extensions 
+
+ESLint
 
 ## Available Scripts
 
