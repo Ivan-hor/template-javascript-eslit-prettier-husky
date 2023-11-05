@@ -58,6 +58,31 @@ Then, in your .eslintrc.json
 
 ```
 
+## Husky
+
+[husky](https://typicode.github.io/husky/)
+
+```
+npx husky-init 
+```
+
+```
+npm install
+```
+
+remove from package.json 
+``` 
+"prepare": "husky install" 
+```
+
+To add a command to a  husky hook
+
+```
+npx husky add .husky/pre-commit "npm test"
+npx husky add .husky/pre-commit "npm run lint"
+
+```
+
 ### Extensions 
 
 ESLint

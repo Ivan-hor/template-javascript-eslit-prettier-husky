@@ -18,8 +18,8 @@
     "eject": "react-scripts eject",
     "lint": "eslint .",
     "lint:fix": "eslint --fix .",
-	"format:check": "prettier . --check",
-	"format:fix": "prettier . --write"
+    "format:check": "prettier . --check",
+    "format:fix": "prettier . --write"
   },
   "browserslist": {
     "production": [
@@ -42,6 +42,7 @@
     "eslint-plugin-prettier": "^5.0.1",
     "eslint-plugin-react": "^7.33.2",
     "eslint-plugin-react-hooks": "^4.6.0",
-    "prettier": "3.0.3"
+    "prettier": "3.0.3",
+    "husky": "^8.0.0"
   }
 }
