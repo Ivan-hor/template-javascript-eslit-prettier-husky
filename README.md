@@ -78,15 +78,19 @@ remove from package.json
 To add a command to a  husky hook
 
 ```
-npx husky add .husky/pre-commit "npm test"
-npx husky add .husky/pre-commit "npm run lint"
+npx husky add .husky/pre-commit "npm run lint" 
+npx husky add .husky/pre-commit "npm test -- --watchAll=false"
+
 
 ```
 
 ### Extensions 
 
-ESLint
-Prettier
+Add extensions:
+
+**ESLint**
+
+**Prettier**
 
 ## Available Scripts
 
